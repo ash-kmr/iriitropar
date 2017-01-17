@@ -7,7 +7,11 @@ body {
     margin-top: 0px;
 
 }
-
+#contactsection.googlemap {
+    position:absolute;
+    background: black;
+    background-blend-mode: overlay;
+}
 a:link {
     color: floralwhite;
     text-decoration: none;
@@ -27,7 +31,7 @@ color: floralwhite;
 
 #container h1{
     opacity: 1;
-    font-size: 3em;
+    font-size: 5em;
     color: azure;
 }
 
@@ -48,7 +52,7 @@ color: floralwhite;
 }
 
 
-#mid-text{
+.mid-text{
     background-position: top;
     position: relative;
     float:right;
@@ -63,8 +67,6 @@ color: floralwhite;
     width: 100%;
     padding-top: 60%;
     padding-bottom: 2.5%;
-    
-    opacity:0.3;
 }
 
 
@@ -102,7 +104,9 @@ color: floralwhite;
 		overflow:hidden;
 	}
 
-
+.mycontainer {
+    position: fixed;
+}
 
 
 .head ul {
