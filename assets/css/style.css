@@ -1,0 +1,183 @@
+body {
+
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+a:link {
+    color: floralwhite;
+    text-decoration: none;
+
+
+}
+a:visited {
+        text-decoration: none;
+color: floralwhite;
+
+}
+a:hover {
+text-decoration: none;
+color: floralwhite;
+
+}
+
+#container h1{
+    opacity: 1;
+    font-size: 3em;
+    color: azure;
+}
+
+.description{
+    display: block;
+    float: left;
+    padding:2%;
+    margin: 0px;
+    font-family: fantasy;
+    color: floralwhite;
+}
+#header{
+    float: left;
+    display: block;
+    padding: 2%;
+    position: absolute;
+    background-color: transparent;
+}
+
+
+#mid-text{
+    background-position: top;
+    position: relative;
+    float:right;
+    display:grid;
+    width: 100%;
+    height:100%;
+    background-color: black;
+    background-size: cover;
+    padding-right: 5%;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    padding-bottom: 2.5%;
+    
+    opacity:0.3;
+}
+
+
+	#container {
+		display: -ms-flexbox;
+		-ms-flex-pack: center;
+		-ms-flex-align: center;
+		
+        
+        -moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+        
+		background-image: url("../../images/images/MOA.jpg");
+		background-position:top;;
+        background-size: cover;
+		background-repeat: no-repeat;
+        background-blend-mode: difference;
+        margin-top: -3.5%;
+
+		      
+        
+		min-height: 100vh;
+		height: 100vh !important;
+		position: static;
+		overflow:hidden;
+	}
+
+
+
+
+.head ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    color: floralwhite;
+}
+
+.head li {
+    position: relative;
+    padding-right: 2%;
+    margin-top: 2%;
+    float: right;
+    display: inline-block;
+    color: floralwhite;
+    background-color: transparent;
+}
+
+.head li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.head li a:hover {
+    background-color: #111;
+}
+
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.image-cropper img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+#second{
+    display: flex;
+    padding: 5%;
+    margin-left: 12%;
+    text-align: left;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+#wrap {
+     width:100%;
+     margin:0% auto;
+}
+#left_col {
+    display: block;
+     float:left;
+     width:33%;
+}
+#mid_col {
+    display: block;
+     float:left;
+     width:33%;
+}
+#right_col {
+    display: block;
+     float:right;
+     width:33%;
+}
