@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color:snow;
+    background-color:white;
 }
 
 html {
@@ -204,3 +204,38 @@ html {
     padding-left:  -10px;
     margin-left: -10px;
 }
+.content h1{
+    padding: 0;
+    margin: 0;
+    display: block;
+    align-content: center;
+    text-align: center;
+    float: right;
+    overflow-x: visible;
+    overflow-y: visible;
+    vertical-align: baseline;
+    padding-top: 30%;
+    padding-right: 10%;
+    color: white;
+}
+
+.content p{
+    padding: 0;
+    margin: 0;
+    display: block;
+    align-content: center;
+    text-align: right;
+    overflow-x: visible;
+    overflow-y: visible;
+    vertical-align: baseline;
+    padding-top: 33%;
+    padding-right: 10%;
+    color: white;
+}
+.content a{
+    color: white;
+    font-display: block;
+    text-decoration: none;
+    font-style: normal;
+}
+
