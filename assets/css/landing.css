@@ -14,16 +14,18 @@ html {
         width: 100%;
         margin-left: -10px;
         margin-right: -5px;
-        background-color:slateblue;
+        background-color:lightseagreen;
 }
 
 
 .head ul {
     list-style-type: none;
     margin: 0;
+    padding-top: 0px;
+    margin-top: -10px;
     padding: 1%;
     overflow: hidden;
-    background-color:slateblue;
+    background-color:lightseagreen;
     color: gray;
 }
 
@@ -34,7 +36,7 @@ html {
     float: right;
     display: inline-block;
     color: gray;
-    background-color: slateblue;
+    background-color: lightseagreen;
     font-size: 1.5em;
     font-family:sans-serif;
 }
@@ -49,10 +51,10 @@ html {
 
 /* Change the link color to #111 (black) on hover */
 .head li a:hover {
-    background-color:darkblue;
+    background-color:cornflowerblue;
 }
 #header img{
-    padding: 0.3%;
+    padding: 0.2%;
     display: block;
     float: left;
     background-color: transparent;
@@ -60,7 +62,7 @@ html {
     padding-left: 5%;
     box-sizing: content-box;
     position: absolute;
-    width: 4.5%;
+    width: 4.4%;
     position: sticky;
     flex: auto;
 }
@@ -190,3 +192,15 @@ html {
 .dropup .dropdown-menu,
 
 
+
+
+.content{
+    background-image: url(../../images/images/MOA.jpg);
+    background-size:cover;
+    display:block;
+    width: 100%;
+    height: 90%;
+    padding: 0;
+    padding-left:  -10px;
+    margin-left: -10px;
+}
