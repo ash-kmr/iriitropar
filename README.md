@@ -1,2 +1,3 @@
-# iriitropar
-This is a website for International relations IIT Ropar
+# IRIA-IITRPR
+
+A website for IIT Ropar

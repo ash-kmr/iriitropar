@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $('.mid-text').animate({
-        opacity: '0.7'
+        opacity: '0.6'
     },1700);
 });
